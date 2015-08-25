@@ -1,0 +1,25 @@
+PODS:
+  - DFImageManager (0.7.0):
+    - DFImageManager/Core (= 0.7.0)
+    - DFImageManager/NSURLSession (= 0.7.0)
+    - DFImageManager/PhotosKit (= 0.7.0)
+    - DFImageManager/UI (= 0.7.0)
+  - DFImageManager/Core (0.7.0)
+  - DFImageManager/NSURLSession (0.7.0):
+    - DFImageManager/Core
+  - DFImageManager/PhotosKit (0.7.0):
+    - DFImageManager/Core
+  - DFImageManager/UI (0.7.0):
+    - DFImageManager/Core
+
+DEPENDENCIES:
+  - DFImageManager (from `/Users/holgersindbaek/Dropbox (Personal)/Projects/*Defaults/Misc/Gems/DFImageManager`)
+
+EXTERNAL SOURCES:
+  DFImageManager:
+    :local: "/Users/holgersindbaek/Dropbox (Personal)/Projects/*Defaults/Misc/Gems/DFImageManager"
+
+SPEC CHECKSUMS:
+  DFImageManager: 28cb8fa0f794da0a048da7b11a75d112c135a210
+
+COCOAPODS: 0.38.2

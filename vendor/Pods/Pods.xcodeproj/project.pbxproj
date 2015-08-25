@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B7E6F7E2C55AF4D868D1C15AEF3AF9 /* DFImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F78F1AB50E7D7D9EDF72A4B93BE932 /* DFImageRequest.m */; };
+		00C7F2EA2556F715AE9C010344B9CD33 /* DFURLImageFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4028D528F466EC7AAE02943190BE270A /* DFURLImageFetcher.h */; };
+		0590B7FB5D33D609AD8D6A62DB0990B7 /* DFImageManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433A25C842E7542F0BBAFEFE8E19A3D /* DFImageManager-dummy.m */; };
+		08D63EC918FE14A95E81503B867BA884 /* DFImageManagerDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 817461E4D8B9F6480ED842FE2CB05473 /* DFImageManagerDefines.m */; };
+		0B162D9C2596140EDF5984D7D860C540 /* DFProxyImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B89BB67449038434B9009AEF325D4CB /* DFProxyImageManager.h */; };
+		0C1ADCEBFB2568B197DB91CDB2F6AD50 /* DFImageCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 572F3DA6F89FA9D1DAF203D1568CB6F0 /* DFImageCaching.h */; };
+		120A92A8218DE92189D7BB6A772B61FE /* DFImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F3C5B3AA547B2D513AC39D65FF43BA /* DFImageManager.m */; };
+		1B1E1F4AB821C4384A6CA85B80B21AF1 /* DFImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ECED45BBEA31F1F16C1F9C769911A8C4 /* DFImageManager.h */; };
+		1B466A34C42DCE0B3FFA8EED3E1A994F /* DFCompositeImageTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E4F53EA16A17C809D003C843D27557 /* DFCompositeImageTask.m */; };
+		23C57BAEB35887A21F0090886D9472B7 /* DFImageDecoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 09658661784241A36C95E4441B8E9C8D /* DFImageDecoding.h */; };
+		27DB884667996317EA9AD057670819AF /* DFCollectionViewPreheatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0041CDD7923CB544A62AA700260DC91 /* DFCollectionViewPreheatingController.m */; };
+		2A5477357D67D3210E37DCCDED9AB3FA /* UIImage+DFImageUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 056749DA013CE15FEF65A043B447EA5F /* UIImage+DFImageUtilities.h */; };
+		2DC2F8B3D4CBA8E62B2F61F301B704F8 /* DFImageProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = 4659EFC7D1269BA895CBA59EFDB673F0 /* DFImageProcessing.h */; };
+		2F1AB83436EF3D5B791C430112CA23F7 /* DFURLHTTPResponseValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 593B8A79857C901536607934C0262932 /* DFURLHTTPResponseValidator.h */; };
+		2FEF5332C381F248DE5600982988A27B /* DFCachedImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ED98A952099195D0C90352F1A92D9793 /* DFCachedImageResponse.m */; };
+		3649C1E61B85A2547E87526FC008E507 /* DFImageManagerKit+PhotosKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC535F5545C89C76277644586923C19 /* DFImageManagerKit+PhotosKit.h */; };
+		38ADE49FCADA9A7BBBDE14BE9D921954 /* DFImageManagerImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9142E2FCDDDF9BC63EDA697925A52506 /* DFImageManagerImageLoader.h */; };
+		3D373A73AA6F3522DBCB669A8A9B9E33 /* NSCache+DFImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 705A7006E3F43D9603DC749FF62313D5 /* NSCache+DFImageManager.h */; };
+		41995FF298A4DED11AF492F0C690DC9E /* DFProgressiveImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DDA864391B477C19A94D719AB760192 /* DFProgressiveImageDecoder.h */; };
+		47F4D70EEBB46ED446A806687D3C8EB6 /* DFImageManagerKit+NSURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = F062FCE8CA32E764996783B32EF89242 /* DFImageManagerKit+NSURLSession.h */; };
+		47FB4E128A8AC597728B5A2CDDE6A1E0 /* DFImageManaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8ED5A226BEB29A59732EF61B1FB8A9 /* DFImageManaging.h */; };
+		4CBE0F24C9ACF5F3C3FD11DDF2262441 /* DFImageManager+DefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BC91FFA1BC84A8CB525F79C89D07EB /* DFImageManager+DefaultManager.m */; };
+		55992A4D0D97B5A220A3B31E3D4BC7C2 /* DFCompositeImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F56277F1568B5BB8FF7FE946F11950 /* DFCompositeImageManager.h */; };
+		5C9CBFB5183E73B64BA9E2A337684C38 /* DFImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F75ADBC62B3E33758A02CE56A3CD8DC /* DFImageResponse.m */; };
+		5E5D07DD8837E5AAFD6548CE7B0654AF /* DFImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6898E14BE251871ADC842CC20FCBFFB9 /* DFImageView.h */; };
+		6F3F6A36D0DBB0CED38CCAB1A7BFE0ED /* DFPhotosKitImageFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 854ABF1B6A58B99888679ABDC44E927D /* DFPhotosKitImageFetcher.h */; };
+		77834AB61258CEF93A0AC1CE2B99BC29 /* DFURLResponseValidating.h in Headers */ = {isa = PBXBuildFile; fileRef = 9689CFC226BCA1BAF050E40B9F3BB22B /* DFURLResponseValidating.h */; };
+		786240CA9B536A16D78B75BB83E12A54 /* NSURL+DFPhotosKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E31FF62227B9163DE879FE11E995512E /* NSURL+DFPhotosKit.h */; };
+		7B79CE529DE77A856F74A8D9EF5B730B /* DFURLHTTPImageDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A532BDDF4E57EA115D4A19416476B /* DFURLHTTPImageDeserializer.m */; };
+		7DD957F636CF22F7C9D18E22D175CBEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B75EF44CCCBF83DDF3E4AF6CD8B5454 /* Foundation.framework */; };
+		7DD98752E9E6AA6FCA458E406909B0A8 /* DFImageTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373AF04B8FE049F33860B2223A48CEC /* DFImageTask.m */; };
+		8044B30874EB01FF499D3EF956D609EE /* DFCollectionViewPreheatingController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3B80828A361FB04249D5E34C7F7EA5 /* DFCollectionViewPreheatingController.h */; };
+		845C132D58ED4D9C40D457089B65B7E6 /* NSURL+DFPhotosKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5A47243E1629FF3159000DE027FB5 /* NSURL+DFPhotosKit.m */; };
+		9034A8BE3DE285C8D94DE2CDDA01F92E /* DFImageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F8D0D9799C4D3A832B6BE9CDA954F7 /* DFImageProcessor.m */; };
+		92BD478FCAB4FE661E21B7A865D3DE06 /* DFImageManagerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 704D4585E725D83DD2856DEECD19F437 /* DFImageManagerKit.h */; };
+		9AA28985FE739DB98AB2B56AE839DDD9 /* DFCompositeImageTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E289BF2F990942F10A4529F03A934F /* DFCompositeImageTask.h */; };
+		9AB657C68DFB75207EE9A036555D6C92 /* DFImageManagerImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BAB72C9CEB5ADE0F60C1A563FD6324 /* DFImageManagerImageLoader.m */; };
+		9E9B2BE67CB0DF05CD12CA780CE04F4F /* UIImage+DFImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 696E015BDD61B5BB35DDBAA250079CE6 /* UIImage+DFImageUtilities.m */; };
+		A2F0D5AEEAF581EA9246BF76BFC1DF75 /* DFImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 923747FBC65EC44564255632B1359484 /* DFImageDecoder.m */; };
+		A367D7A90D161556D254C772ACF0253A /* DFImageRequestOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE2E4F623FFCF03821E9A6A035F6954 /* DFImageRequestOptions.m */; };
+		A739D9DD2BF5B16694B4547C9AE558EC /* DFImageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B505ECC66E12FC0AB86278FFA0BDED /* DFImageRequest.h */; };
+		A7D7E64303E7B897232D47C3E7403C12 /* DFImageManagerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9814B4D6A63F3EBDFA2AA693F635ACB9 /* DFImageManagerConfiguration.m */; };
+		A8EC249602EFBA2F8ECA891F7473DD93 /* DFImageManagerDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC3FCDF426B2D4CE645EEC9DD894534 /* DFImageManagerDefines.h */; };
+		AE9CBEB114DC1522F07E4AB59FAF4D77 /* DFCachedImageResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EC46B16CE94BDBA7F95CEF8711BF81 /* DFCachedImageResponse.h */; };
+		AEA80729467E0C9149B950242EEFB2EE /* DFImageResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 95864A05AA2733EB42C081CDDFBC24FB /* DFImageResponse.h */; };
+		AF9ABEFBDB7E85C3B57D8CB00455ACDB /* DFImageManagerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = BD423CE1C7C2D88FB0C4E3DB45D9C784 /* DFImageManagerConfiguration.h */; };
+		B021B66159E0326535C2DE8738118366 /* UIImageView+DFImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7247BE82C53EF072EAD659BAFADDA884 /* UIImageView+DFImageManager.h */; };
+		B78DC7C6A758E52FDA3B07DB8D0D16E8 /* DFImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8467C485AA3B4A46F859A6902F8C72A6 /* DFImageCache.h */; };
+		B7E5322BCE79763BD20D28AEE243671D /* DFImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D80694CEF459E5AF1EBA9AAC9D19EE82 /* DFImageCache.m */; };
+		B9F97728D4C02BE2F3F2243AAF080D05 /* DFImageProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = E686C2176759DA805A7CE6C833A88BF0 /* DFImageProcessor.h */; };
+		C26633D63A7460443AAE6C922EBFEB2B /* DFImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A46CD73B03190E8B764C86989A98216C /* DFImageDecoder.h */; };
+		C559703FF7AF163C526AEDA0201A6FE4 /* DFImageManager+SharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DB3D03DD3FBA465C57A30B3F83AA10 /* DFImageManager+SharedManager.m */; };
+		CCEBE769D92676462E66DBF6BC0F2125 /* DFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F9A873A92B3A221E9FCE2D685A4622 /* DFImageView.m */; };
+		CDB67AC6FA5AA55525D904EE3C7FEF8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B75EF44CCCBF83DDF3E4AF6CD8B5454 /* Foundation.framework */; };
+		D0E4387A05821AA8403425DC9D38A4D9 /* DFProxyImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 147835EBFB9B90ABF21527DB1826202F /* DFProxyImageManager.m */; };
+		D1C1953A11CD58E218AE7BC56AF86E9B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F420238EFAD7BC4E60247FE5E473A3D /* Pods-dummy.m */; };
+		D2FE036B37FCFBCCA9523DC703F14437 /* DFImageTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 38719FCB11A6BC0B7C018E9283296734 /* DFImageTask.h */; };
+		D36544C8638744BF27359D65F9398456 /* DFImageRequestOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = C648ABF87D60F83A596954B7A9BB6DDD /* DFImageRequestOptions.h */; };
+		D5ACD9C650C6229C55D3D361C0237E87 /* NSCache+DFImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B81403527014876A1D761FF8EA91DA7 /* NSCache+DFImageManager.m */; };
+		DCD7110529C9652C68F802D0A7EF23E0 /* DFPhotosKitImageFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A1564ED72C1F9BEA0891F856C0D18AF2 /* DFPhotosKitImageFetcher.m */; };
+		E2A000EA606CFE34179D00C0E97294C9 /* UIImageView+DFImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCCF98981F5528230192B3855238D45 /* UIImageView+DFImageManager.m */; };
+		ED4D1ED436F642D4C852F2BE5CA8C51C /* DFImageManagerKit+UI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7A963703CD5FFAD4CEF8BCC5A27BF3 /* DFImageManagerKit+UI.h */; };
+		EF5A0AE7E2BFF099466AE4A1CF73C28E /* DFCompositeImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 711D489927B66859290A0C7869474FBB /* DFCompositeImageManager.m */; };
+		F5E9AD47C6351589CC3E3644BA883896 /* DFImageFetching.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DC0DF098621DC41206F35262A7F82C /* DFImageFetching.h */; };
+		F613CF29E4EE76E57858D80782C823BF /* DFURLImageFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8390C4275AB806C0844760A9801A84 /* DFURLImageFetcher.m */; };
+		FAEAD08DDF35A0AC2B7C1090CFCB0598 /* DFProgressiveImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A2EBA87FAB56095575CE2D4FB299C /* DFProgressiveImageDecoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA35393066D8095CC57A5D2D5BB9B683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75134D12C4FB74F27D100FC426AC62B;
+			remoteInfo = DFImageManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056749DA013CE15FEF65A043B447EA5F /* UIImage+DFImageUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+DFImageUtilities.h"; sourceTree = "<group>"; };
+		09658661784241A36C95E4441B8E9C8D /* DFImageDecoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageDecoding.h; sourceTree = "<group>"; };
+		0DCCF98981F5528230192B3855238D45 /* UIImageView+DFImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DFImageManager.m"; sourceTree = "<group>"; };
+		147835EBFB9B90ABF21527DB1826202F /* DFProxyImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFProxyImageManager.m; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BC535F5545C89C76277644586923C19 /* DFImageManagerKit+PhotosKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DFImageManagerKit+PhotosKit.h"; sourceTree = "<group>"; };
+		1BEEF560E0F5BC3963EB3ED5D04880F6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		1DDA864391B477C19A94D719AB760192 /* DFProgressiveImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFProgressiveImageDecoder.h; sourceTree = "<group>"; };
+		24F3C5B3AA547B2D513AC39D65FF43BA /* DFImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageManager.m; sourceTree = "<group>"; };
+		25A5A47243E1629FF3159000DE027FB5 /* NSURL+DFPhotosKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+DFPhotosKit.m"; sourceTree = "<group>"; };
+		28F9A873A92B3A221E9FCE2D685A4622 /* DFImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageView.m; sourceTree = "<group>"; };
+		2B81403527014876A1D761FF8EA91DA7 /* NSCache+DFImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSCache+DFImageManager.m"; sourceTree = "<group>"; };
+		2D3B80828A361FB04249D5E34C7F7EA5 /* DFCollectionViewPreheatingController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFCollectionViewPreheatingController.h; sourceTree = "<group>"; };
+		3433A25C842E7542F0BBAFEFE8E19A3D /* DFImageManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DFImageManager-dummy.m"; sourceTree = "<group>"; };
+		38719FCB11A6BC0B7C018E9283296734 /* DFImageTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageTask.h; sourceTree = "<group>"; };
+		3D8ED5A226BEB29A59732EF61B1FB8A9 /* DFImageManaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageManaging.h; sourceTree = "<group>"; };
+		3F420238EFAD7BC4E60247FE5E473A3D /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		4028D528F466EC7AAE02943190BE270A /* DFURLImageFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFURLImageFetcher.h; sourceTree = "<group>"; };
+		42BC91FFA1BC84A8CB525F79C89D07EB /* DFImageManager+DefaultManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DFImageManager+DefaultManager.m"; sourceTree = "<group>"; };
+		43F8D0D9799C4D3A832B6BE9CDA954F7 /* DFImageProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageProcessor.m; sourceTree = "<group>"; };
+		4659EFC7D1269BA895CBA59EFDB673F0 /* DFImageProcessing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageProcessing.h; sourceTree = "<group>"; };
+		48DB3D03DD3FBA465C57A30B3F83AA10 /* DFImageManager+SharedManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DFImageManager+SharedManager.m"; sourceTree = "<group>"; };
+		50EC46B16CE94BDBA7F95CEF8711BF81 /* DFCachedImageResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFCachedImageResponse.h; sourceTree = "<group>"; };
+		572F3DA6F89FA9D1DAF203D1568CB6F0 /* DFImageCaching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageCaching.h; sourceTree = "<group>"; };
+		593B8A79857C901536607934C0262932 /* DFURLHTTPResponseValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFURLHTTPResponseValidator.h; sourceTree = "<group>"; };
+		5B89BB67449038434B9009AEF325D4CB /* DFProxyImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFProxyImageManager.h; sourceTree = "<group>"; };
+		5BC3FCDF426B2D4CE645EEC9DD894534 /* DFImageManagerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageManagerDefines.h; sourceTree = "<group>"; };
+		5D1DD8670906A48BA78759E9B79F42F5 /* DFImageManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DFImageManager-Private.xcconfig"; sourceTree = "<group>"; };
+		5D8390C4275AB806C0844760A9801A84 /* DFURLImageFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFURLImageFetcher.m; sourceTree = "<group>"; };
+		6373AF04B8FE049F33860B2223A48CEC /* DFImageTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageTask.m; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		66BAB72C9CEB5ADE0F60C1A563FD6324 /* DFImageManagerImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageManagerImageLoader.m; sourceTree = "<group>"; };
+		6898E14BE251871ADC842CC20FCBFFB9 /* DFImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageView.h; sourceTree = "<group>"; };
+		696E015BDD61B5BB35DDBAA250079CE6 /* UIImage+DFImageUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DFImageUtilities.m"; sourceTree = "<group>"; };
+		6F75ADBC62B3E33758A02CE56A3CD8DC /* DFImageResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageResponse.m; sourceTree = "<group>"; };
+		704D4585E725D83DD2856DEECD19F437 /* DFImageManagerKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageManagerKit.h; sourceTree = "<group>"; };
+		705A7006E3F43D9603DC749FF62313D5 /* NSCache+DFImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSCache+DFImageManager.h"; sourceTree = "<group>"; };
+		70E4F53EA16A17C809D003C843D27557 /* DFCompositeImageTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFCompositeImageTask.m; sourceTree = "<group>"; };
+		711D489927B66859290A0C7869474FBB /* DFCompositeImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFCompositeImageManager.m; sourceTree = "<group>"; };
+		712A532BDDF4E57EA115D4A19416476B /* DFURLHTTPImageDeserializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFURLHTTPImageDeserializer.m; sourceTree = "<group>"; };
+		7247BE82C53EF072EAD659BAFADDA884 /* UIImageView+DFImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DFImageManager.h"; sourceTree = "<group>"; };
+		73B5389F9700575E7D58A03B8B9EC0D6 /* DFImageManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DFImageManager.xcconfig; sourceTree = "<group>"; };
+		7E5A2EBA87FAB56095575CE2D4FB299C /* DFProgressiveImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFProgressiveImageDecoder.m; sourceTree = "<group>"; };
+		817461E4D8B9F6480ED842FE2CB05473 /* DFImageManagerDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageManagerDefines.m; sourceTree = "<group>"; };
+		82E289BF2F990942F10A4529F03A934F /* DFCompositeImageTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFCompositeImageTask.h; sourceTree = "<group>"; };
+		8467C485AA3B4A46F859A6902F8C72A6 /* DFImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageCache.h; sourceTree = "<group>"; };
+		854ABF1B6A58B99888679ABDC44E927D /* DFPhotosKitImageFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFPhotosKitImageFetcher.h; sourceTree = "<group>"; };
+		88AD7EBCA7B9DE90893956191568B92C /* DFImageManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DFImageManager-prefix.pch"; sourceTree = "<group>"; };
+		8B75EF44CCCBF83DDF3E4AF6CD8B5454 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9142E2FCDDDF9BC63EDA697925A52506 /* DFImageManagerImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageManagerImageLoader.h; sourceTree = "<group>"; };
+		923747FBC65EC44564255632B1359484 /* DFImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageDecoder.m; sourceTree = "<group>"; };
+		95864A05AA2733EB42C081CDDFBC24FB /* DFImageResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageResponse.h; sourceTree = "<group>"; };
+		9689CFC226BCA1BAF050E40B9F3BB22B /* DFURLResponseValidating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFURLResponseValidating.h; sourceTree = "<group>"; };
+		97F56277F1568B5BB8FF7FE946F11950 /* DFCompositeImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFCompositeImageManager.h; sourceTree = "<group>"; };
+		9814B4D6A63F3EBDFA2AA693F635ACB9 /* DFImageManagerConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageManagerConfiguration.m; sourceTree = "<group>"; };
+		9CE2E4F623FFCF03821E9A6A035F6954 /* DFImageRequestOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageRequestOptions.m; sourceTree = "<group>"; };
+		A0041CDD7923CB544A62AA700260DC91 /* DFCollectionViewPreheatingController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFCollectionViewPreheatingController.m; sourceTree = "<group>"; };
+		A1564ED72C1F9BEA0891F856C0D18AF2 /* DFPhotosKitImageFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFPhotosKitImageFetcher.m; sourceTree = "<group>"; };
+		A46CD73B03190E8B764C86989A98216C /* DFImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageDecoder.h; sourceTree = "<group>"; };
+		A833FBB0906207DED67961352E4E8710 /* libDFImageManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDFImageManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83757EF5665281C2AFF6AF28EEAD214 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		BD423CE1C7C2D88FB0C4E3DB45D9C784 /* DFImageManagerConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageManagerConfiguration.h; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0F78F1AB50E7D7D9EDF72A4B93BE932 /* DFImageRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageRequest.m; sourceTree = "<group>"; };
+		C648ABF87D60F83A596954B7A9BB6DDD /* DFImageRequestOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageRequestOptions.h; sourceTree = "<group>"; };
+		C8B505ECC66E12FC0AB86278FFA0BDED /* DFImageRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageRequest.h; sourceTree = "<group>"; };
+		D80694CEF459E5AF1EBA9AAC9D19EE82 /* DFImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFImageCache.m; sourceTree = "<group>"; };
+		DCED44E9111F1595327F13FD8C0EE3FB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DC0DF098621DC41206F35262A7F82C /* DFImageFetching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageFetching.h; sourceTree = "<group>"; };
+		E31FF62227B9163DE879FE11E995512E /* NSURL+DFPhotosKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+DFPhotosKit.h"; sourceTree = "<group>"; };
+		E686C2176759DA805A7CE6C833A88BF0 /* DFImageProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageProcessor.h; sourceTree = "<group>"; };
+		ECED45BBEA31F1F16C1F9C769911A8C4 /* DFImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DFImageManager.h; sourceTree = "<group>"; };
+		ED98A952099195D0C90352F1A92D9793 /* DFCachedImageResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DFCachedImageResponse.m; sourceTree = "<group>"; };
+		F062FCE8CA32E764996783B32EF89242 /* DFImageManagerKit+NSURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DFImageManagerKit+NSURLSession.h"; sourceTree = "<group>"; };
+		FE7A963703CD5FFAD4CEF8BCC5A27BF3 /* DFImageManagerKit+UI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DFImageManagerKit+UI.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D7EEC53FA367EE617A8D2ECFAD9162C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB67AC6FA5AA55525D904EE3C7FEF8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11CB0A13167887240857FB5A845FC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD957F636CF22F7C9D18E22D175CBEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E41D99192FC4A58D6541B9E3E8263C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A46CD73B03190E8B764C86989A98216C /* DFImageDecoder.h */,
+				923747FBC65EC44564255632B1359484 /* DFImageDecoder.m */,
+				5BC3FCDF426B2D4CE645EEC9DD894534 /* DFImageManagerDefines.h */,
+				817461E4D8B9F6480ED842FE2CB05473 /* DFImageManagerDefines.m */,
+				C8B505ECC66E12FC0AB86278FFA0BDED /* DFImageRequest.h */,
+				C0F78F1AB50E7D7D9EDF72A4B93BE932 /* DFImageRequest.m */,
+				C648ABF87D60F83A596954B7A9BB6DDD /* DFImageRequestOptions.h */,
+				9CE2E4F623FFCF03821E9A6A035F6954 /* DFImageRequestOptions.m */,
+				95864A05AA2733EB42C081CDDFBC24FB /* DFImageResponse.h */,
+				6F75ADBC62B3E33758A02CE56A3CD8DC /* DFImageResponse.m */,
+				38719FCB11A6BC0B7C018E9283296734 /* DFImageTask.h */,
+				6373AF04B8FE049F33860B2223A48CEC /* DFImageTask.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		0A5980449015AF11C3B94C79327476EB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C6AF01CC2CFC09D84BD8BA6BD7184EFE /* DFImageManager */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1CB3E2B44CB36E983134488197E8434B /* DFImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3D76E26541B0ED7C9AB90183AA01F /* Source */,
+			);
+			path = DFImageManager;
+			sourceTree = "<group>";
+		};
+		2575BFE2BF8CDE68237905C60DF334B6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				62CDF6F7E884A99CC10744A34E273B12 /* NSURLSession */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3597C8065F563BAE4842CB8648063264 /* PhotosKit */ = {
+			isa = PBXGroup;
+			children = (
+				1BC535F5545C89C76277644586923C19 /* DFImageManagerKit+PhotosKit.h */,
+				854ABF1B6A58B99888679ABDC44E927D /* DFPhotosKitImageFetcher.h */,
+				A1564ED72C1F9BEA0891F856C0D18AF2 /* DFPhotosKitImageFetcher.m */,
+				E31FF62227B9163DE879FE11E995512E /* NSURL+DFPhotosKit.h */,
+				25A5A47243E1629FF3159000DE027FB5 /* NSURL+DFPhotosKit.m */,
+			);
+			path = PhotosKit;
+			sourceTree = "<group>";
+		};
+		374B3FFB9862F4C9909E78B15224EEC3 /* DFImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				2575BFE2BF8CDE68237905C60DF334B6 /* Source */,
+			);
+			path = DFImageManager;
+			sourceTree = "<group>";
+		};
+		3DD3D76E26541B0ED7C9AB90183AA01F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3597C8065F563BAE4842CB8648063264 /* PhotosKit */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		43697C9FAFB73614ED0AC3C646F39A51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73B5389F9700575E7D58A03B8B9EC0D6 /* DFImageManager.xcconfig */,
+				5D1DD8670906A48BA78759E9B79F42F5 /* DFImageManager-Private.xcconfig */,
+				3433A25C842E7542F0BBAFEFE8E19A3D /* DFImageManager-dummy.m */,
+				88AD7EBCA7B9DE90893956191568B92C /* DFImageManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../../../../Desktop/dfimage_test/vendor/Pods/Target Support Files/DFImageManager";
+			sourceTree = "<group>";
+		};
+		45B1B27D60ADC795BD02F6D57EC633A9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				704D4585E725D83DD2856DEECD19F437 /* DFImageManagerKit.h */,
+				FD3A3FF1B0EF1833177FCDBBBA300E8E /* Caching */,
+				E1044464FEE6EF645543FFCDAF9C2AB5 /* Managing */,
+				736702275C742CE5DE83B60E8A880DFE /* Private */,
+				E6CCCC5EFB674FA8B41D4B3FD99DE74A /* Processing */,
+				B45E0E65481266209FC705DE92AED660 /* Protocols */,
+				04E41D99192FC4A58D6541B9E3E8263C /* Support */,
+				5FB2DF5BEE85B6A26AD302D02593017B /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4CB194B8DD6E4837B78FDA86B03E6DC4 /* DFImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				0A5980449015AF11C3B94C79327476EB /* Core */,
+				B5A233D7060E993B11FB8EE103CE50E4 /* NSURLSession */,
+				AD8C0256BF9E97C4DA0BE88B67A4F777 /* PhotosKit */,
+				43697C9FAFB73614ED0AC3C646F39A51 /* Support Files */,
+				F076A9C9EB5783759D0E9BD1BC720200 /* UI */,
+			);
+			name = DFImageManager;
+			path = "/Users/holgersindbaek/Dropbox (Personal)/Projects/*Defaults/Misc/Gems/DFImageManager";
+			sourceTree = "<absolute>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B75EF44CCCBF83DDF3E4AF6CD8B5454 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FB2DF5BEE85B6A26AD302D02593017B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				97F56277F1568B5BB8FF7FE946F11950 /* DFCompositeImageManager.h */,
+				711D489927B66859290A0C7869474FBB /* DFCompositeImageManager.m */,
+				82E289BF2F990942F10A4529F03A934F /* DFCompositeImageTask.h */,
+				70E4F53EA16A17C809D003C843D27557 /* DFCompositeImageTask.m */,
+				5B89BB67449038434B9009AEF325D4CB /* DFProxyImageManager.h */,
+				147835EBFB9B90ABF21527DB1826202F /* DFProxyImageManager.m */,
+				056749DA013CE15FEF65A043B447EA5F /* UIImage+DFImageUtilities.h */,
+				696E015BDD61B5BB35DDBAA250079CE6 /* UIImage+DFImageUtilities.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		62CDF6F7E884A99CC10744A34E273B12 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				F062FCE8CA32E764996783B32EF89242 /* DFImageManagerKit+NSURLSession.h */,
+				712A532BDDF4E57EA115D4A19416476B /* DFURLHTTPImageDeserializer.m */,
+				593B8A79857C901536607934C0262932 /* DFURLHTTPResponseValidator.h */,
+				4028D528F466EC7AAE02943190BE270A /* DFURLImageFetcher.h */,
+				5D8390C4275AB806C0844760A9801A84 /* DFURLImageFetcher.m */,
+				9689CFC226BCA1BAF050E40B9F3BB22B /* DFURLResponseValidating.h */,
+			);
+			path = NSURLSession;
+			sourceTree = "<group>";
+		};
+		736702275C742CE5DE83B60E8A880DFE /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				9142E2FCDDDF9BC63EDA697925A52506 /* DFImageManagerImageLoader.h */,
+				66BAB72C9CEB5ADE0F60C1A563FD6324 /* DFImageManagerImageLoader.m */,
+				1DDA864391B477C19A94D719AB760192 /* DFProgressiveImageDecoder.h */,
+				7E5A2EBA87FAB56095575CE2D4FB299C /* DFProgressiveImageDecoder.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				EAEB081CABCEC558AF0BE2B2A0C7580F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		946F55BE59E1C3D40738C5CC7478EA8E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B4BBCC4AAE5335E7922EEC8413EE8A0D /* UI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				3F420238EFAD7BC4E60247FE5E473A3D /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				1BEEF560E0F5BC3963EB3ED5D04880F6 /* Pods.debug.xcconfig */,
+				B83757EF5665281C2AFF6AF28EEAD214 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		AD8C0256BF9E97C4DA0BE88B67A4F777 /* PhotosKit */ = {
+			isa = PBXGroup;
+			children = (
+				1CB3E2B44CB36E983134488197E8434B /* DFImageManager */,
+			);
+			name = PhotosKit;
+			sourceTree = "<group>";
+		};
+		B45E0E65481266209FC705DE92AED660 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				572F3DA6F89FA9D1DAF203D1568CB6F0 /* DFImageCaching.h */,
+				09658661784241A36C95E4441B8E9C8D /* DFImageDecoding.h */,
+				E1DC0DF098621DC41206F35262A7F82C /* DFImageFetching.h */,
+				3D8ED5A226BEB29A59732EF61B1FB8A9 /* DFImageManaging.h */,
+				4659EFC7D1269BA895CBA59EFDB673F0 /* DFImageProcessing.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B4BBCC4AAE5335E7922EEC8413EE8A0D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2D3B80828A361FB04249D5E34C7F7EA5 /* DFCollectionViewPreheatingController.h */,
+				A0041CDD7923CB544A62AA700260DC91 /* DFCollectionViewPreheatingController.m */,
+				FE7A963703CD5FFAD4CEF8BCC5A27BF3 /* DFImageManagerKit+UI.h */,
+				6898E14BE251871ADC842CC20FCBFFB9 /* DFImageView.h */,
+				28F9A873A92B3A221E9FCE2D685A4622 /* DFImageView.m */,
+				7247BE82C53EF072EAD659BAFADDA884 /* UIImageView+DFImageManager.h */,
+				0DCCF98981F5528230192B3855238D45 /* UIImageView+DFImageManager.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B5A233D7060E993B11FB8EE103CE50E4 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				374B3FFB9862F4C9909E78B15224EEC3 /* DFImageManager */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4896B9CD6D8D49BF26CBEB29667583 /* DFImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				946F55BE59E1C3D40738C5CC7478EA8E /* Source */,
+			);
+			path = DFImageManager;
+			sourceTree = "<group>";
+		};
+		C6AF01CC2CFC09D84BD8BA6BD7184EFE /* DFImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				F5D40B7445D8A732AF2369A3C4F65F60 /* Source */,
+			);
+			path = DFImageManager;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A833FBB0906207DED67961352E4E8710 /* libDFImageManager.a */,
+				DCED44E9111F1595327F13FD8C0EE3FB /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E1044464FEE6EF645543FFCDAF9C2AB5 /* Managing */ = {
+			isa = PBXGroup;
+			children = (
+				ECED45BBEA31F1F16C1F9C769911A8C4 /* DFImageManager.h */,
+				24F3C5B3AA547B2D513AC39D65FF43BA /* DFImageManager.m */,
+				42BC91FFA1BC84A8CB525F79C89D07EB /* DFImageManager+DefaultManager.m */,
+				48DB3D03DD3FBA465C57A30B3F83AA10 /* DFImageManager+SharedManager.m */,
+				BD423CE1C7C2D88FB0C4E3DB45D9C784 /* DFImageManagerConfiguration.h */,
+				9814B4D6A63F3EBDFA2AA693F635ACB9 /* DFImageManagerConfiguration.m */,
+			);
+			path = Managing;
+			sourceTree = "<group>";
+		};
+		E6CCCC5EFB674FA8B41D4B3FD99DE74A /* Processing */ = {
+			isa = PBXGroup;
+			children = (
+				E686C2176759DA805A7CE6C833A88BF0 /* DFImageProcessor.h */,
+				43F8D0D9799C4D3A832B6BE9CDA954F7 /* DFImageProcessor.m */,
+			);
+			path = Processing;
+			sourceTree = "<group>";
+		};
+		EAEB081CABCEC558AF0BE2B2A0C7580F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CB194B8DD6E4837B78FDA86B03E6DC4 /* DFImageManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F076A9C9EB5783759D0E9BD1BC720200 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BF4896B9CD6D8D49BF26CBEB29667583 /* DFImageManager */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		F5D40B7445D8A732AF2369A3C4F65F60 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				45B1B27D60ADC795BD02F6D57EC633A9 /* Core */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FD3A3FF1B0EF1833177FCDBBBA300E8E /* Caching */ = {
+			isa = PBXGroup;
+			children = (
+				50EC46B16CE94BDBA7F95CEF8711BF81 /* DFCachedImageResponse.h */,
+				ED98A952099195D0C90352F1A92D9793 /* DFCachedImageResponse.m */,
+				8467C485AA3B4A46F859A6902F8C72A6 /* DFImageCache.h */,
+				D80694CEF459E5AF1EBA9AAC9D19EE82 /* DFImageCache.m */,
+				705A7006E3F43D9603DC749FF62313D5 /* NSCache+DFImageManager.h */,
+				2B81403527014876A1D761FF8EA91DA7 /* NSCache+DFImageManager.m */,
+			);
+			path = Caching;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B2A95AFFD7FFD6521E154A4D2F14F611 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9CBEB114DC1522F07E4AB59FAF4D77 /* DFCachedImageResponse.h in Headers */,
+				8044B30874EB01FF499D3EF956D609EE /* DFCollectionViewPreheatingController.h in Headers */,
+				55992A4D0D97B5A220A3B31E3D4BC7C2 /* DFCompositeImageManager.h in Headers */,
+				9AA28985FE739DB98AB2B56AE839DDD9 /* DFCompositeImageTask.h in Headers */,
+				B78DC7C6A758E52FDA3B07DB8D0D16E8 /* DFImageCache.h in Headers */,
+				0C1ADCEBFB2568B197DB91CDB2F6AD50 /* DFImageCaching.h in Headers */,
+				C26633D63A7460443AAE6C922EBFEB2B /* DFImageDecoder.h in Headers */,
+				23C57BAEB35887A21F0090886D9472B7 /* DFImageDecoding.h in Headers */,
+				F5E9AD47C6351589CC3E3644BA883896 /* DFImageFetching.h in Headers */,
+				1B1E1F4AB821C4384A6CA85B80B21AF1 /* DFImageManager.h in Headers */,
+				AF9ABEFBDB7E85C3B57D8CB00455ACDB /* DFImageManagerConfiguration.h in Headers */,
+				A8EC249602EFBA2F8ECA891F7473DD93 /* DFImageManagerDefines.h in Headers */,
+				38ADE49FCADA9A7BBBDE14BE9D921954 /* DFImageManagerImageLoader.h in Headers */,
+				47F4D70EEBB46ED446A806687D3C8EB6 /* DFImageManagerKit+NSURLSession.h in Headers */,
+				3649C1E61B85A2547E87526FC008E507 /* DFImageManagerKit+PhotosKit.h in Headers */,
+				ED4D1ED436F642D4C852F2BE5CA8C51C /* DFImageManagerKit+UI.h in Headers */,
+				92BD478FCAB4FE661E21B7A865D3DE06 /* DFImageManagerKit.h in Headers */,
+				47FB4E128A8AC597728B5A2CDDE6A1E0 /* DFImageManaging.h in Headers */,
+				2DC2F8B3D4CBA8E62B2F61F301B704F8 /* DFImageProcessing.h in Headers */,
+				B9F97728D4C02BE2F3F2243AAF080D05 /* DFImageProcessor.h in Headers */,
+				A739D9DD2BF5B16694B4547C9AE558EC /* DFImageRequest.h in Headers */,
+				D36544C8638744BF27359D65F9398456 /* DFImageRequestOptions.h in Headers */,
+				AEA80729467E0C9149B950242EEFB2EE /* DFImageResponse.h in Headers */,
+				D2FE036B37FCFBCCA9523DC703F14437 /* DFImageTask.h in Headers */,
+				5E5D07DD8837E5AAFD6548CE7B0654AF /* DFImageView.h in Headers */,
+				6F3F6A36D0DBB0CED38CCAB1A7BFE0ED /* DFPhotosKitImageFetcher.h in Headers */,
+				41995FF298A4DED11AF492F0C690DC9E /* DFProgressiveImageDecoder.h in Headers */,
+				0B162D9C2596140EDF5984D7D860C540 /* DFProxyImageManager.h in Headers */,
+				2F1AB83436EF3D5B791C430112CA23F7 /* DFURLHTTPResponseValidator.h in Headers */,
+				00C7F2EA2556F715AE9C010344B9CD33 /* DFURLImageFetcher.h in Headers */,
+				77834AB61258CEF93A0AC1CE2B99BC29 /* DFURLResponseValidating.h in Headers */,
+				3D373A73AA6F3522DBCB669A8A9B9E33 /* NSCache+DFImageManager.h in Headers */,
+				786240CA9B536A16D78B75BB83E12A54 /* NSURL+DFPhotosKit.h in Headers */,
+				2A5477357D67D3210E37DCCDED9AB3FA /* UIImage+DFImageUtilities.h in Headers */,
+				B021B66159E0326535C2DE8738118366 /* UIImageView+DFImageManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79E56E72396B3CC6C7785F7ABF1CD2E6 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B840131B1C7009646454F94DB00752 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				8BE6040448401C34BA07C6B17F285B16 /* Sources */,
+				7D7EEC53FA367EE617A8D2ECFAD9162C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DE36C09E63C620288251934AAFF3AD1 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = DCED44E9111F1595327F13FD8C0EE3FB /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B75134D12C4FB74F27D100FC426AC62B /* DFImageManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EF9F8ED6B177D2B36F668AE8E2EAC81 /* Build configuration list for PBXNativeTarget "DFImageManager" */;
+			buildPhases = (
+				50198C22023D62364F87D3EBD52B1EB1 /* Sources */,
+				F11CB0A13167887240857FB5A845FC6C /* Frameworks */,
+				B2A95AFFD7FFD6521E154A4D2F14F611 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFImageManager;
+			productName = DFImageManager;
+			productReference = A833FBB0906207DED67961352E4E8710 /* libDFImageManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B75134D12C4FB74F27D100FC426AC62B /* DFImageManager */,
+				79E56E72396B3CC6C7785F7ABF1CD2E6 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50198C22023D62364F87D3EBD52B1EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEF5332C381F248DE5600982988A27B /* DFCachedImageResponse.m in Sources */,
+				27DB884667996317EA9AD057670819AF /* DFCollectionViewPreheatingController.m in Sources */,
+				EF5A0AE7E2BFF099466AE4A1CF73C28E /* DFCompositeImageManager.m in Sources */,
+				1B466A34C42DCE0B3FFA8EED3E1A994F /* DFCompositeImageTask.m in Sources */,
+				B7E5322BCE79763BD20D28AEE243671D /* DFImageCache.m in Sources */,
+				A2F0D5AEEAF581EA9246BF76BFC1DF75 /* DFImageDecoder.m in Sources */,
+				4CBE0F24C9ACF5F3C3FD11DDF2262441 /* DFImageManager+DefaultManager.m in Sources */,
+				C559703FF7AF163C526AEDA0201A6FE4 /* DFImageManager+SharedManager.m in Sources */,
+				0590B7FB5D33D609AD8D6A62DB0990B7 /* DFImageManager-dummy.m in Sources */,
+				120A92A8218DE92189D7BB6A772B61FE /* DFImageManager.m in Sources */,
+				A7D7E64303E7B897232D47C3E7403C12 /* DFImageManagerConfiguration.m in Sources */,
+				08D63EC918FE14A95E81503B867BA884 /* DFImageManagerDefines.m in Sources */,
+				9AB657C68DFB75207EE9A036555D6C92 /* DFImageManagerImageLoader.m in Sources */,
+				9034A8BE3DE285C8D94DE2CDDA01F92E /* DFImageProcessor.m in Sources */,
+				00B7E6F7E2C55AF4D868D1C15AEF3AF9 /* DFImageRequest.m in Sources */,
+				A367D7A90D161556D254C772ACF0253A /* DFImageRequestOptions.m in Sources */,
+				5C9CBFB5183E73B64BA9E2A337684C38 /* DFImageResponse.m in Sources */,
+				7DD98752E9E6AA6FCA458E406909B0A8 /* DFImageTask.m in Sources */,
+				CCEBE769D92676462E66DBF6BC0F2125 /* DFImageView.m in Sources */,
+				DCD7110529C9652C68F802D0A7EF23E0 /* DFPhotosKitImageFetcher.m in Sources */,
+				FAEAD08DDF35A0AC2B7C1090CFCB0598 /* DFProgressiveImageDecoder.m in Sources */,
+				D0E4387A05821AA8403425DC9D38A4D9 /* DFProxyImageManager.m in Sources */,
+				7B79CE529DE77A856F74A8D9EF5B730B /* DFURLHTTPImageDeserializer.m in Sources */,
+				F613CF29E4EE76E57858D80782C823BF /* DFURLImageFetcher.m in Sources */,
+				D5ACD9C650C6229C55D3D361C0237E87 /* NSCache+DFImageManager.m in Sources */,
+				845C132D58ED4D9C40D457089B65B7E6 /* NSURL+DFPhotosKit.m in Sources */,
+				9E9B2BE67CB0DF05CD12CA780CE04F4F /* UIImage+DFImageUtilities.m in Sources */,
+				E2A000EA606CFE34179D00C0E97294C9 /* UIImageView+DFImageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE6040448401C34BA07C6B17F285B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C1953A11CD58E218AE7BC56AF86E9B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DE36C09E63C620288251934AAFF3AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DFImageManager;
+			target = B75134D12C4FB74F27D100FC426AC62B /* DFImageManager */;
+			targetProxy = FA35393066D8095CC57A5D2D5BB9B683 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08F155DF853859F833EB2D2117FBEEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1DD8670906A48BA78759E9B79F42F5 /* DFImageManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DFImageManager/DFImageManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		191FFB098E72BCFB93EB68CABEA8FEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83757EF5665281C2AFF6AF28EEAD214 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2245C99EB3E6DCB180FF51FCF78A37C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEEF560E0F5BC3963EB3ED5D04880F6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C1F0FA82752219943D56103A7427FCFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1DD8670906A48BA78759E9B79F42F5 /* DFImageManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DFImageManager/DFImageManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EF9F8ED6B177D2B36F668AE8E2EAC81 /* Build configuration list for PBXNativeTarget "DFImageManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F155DF853859F833EB2D2117FBEEBF /* Debug */,
+				C1F0FA82752219943D56103A7427FCFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B840131B1C7009646454F94DB00752 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2245C99EB3E6DCB180FF51FCF78A37C1 /* Debug */,
+				191FFB098E72BCFB93EB68CABEA8FEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
