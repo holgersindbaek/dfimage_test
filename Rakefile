@@ -13,6 +13,6 @@ Motion::Project::App.setup do |app|
   app.name = 'dfimage_test'
 
   app.pods do
-    pod 'DFImageManager' , local: '/Users/holgersindbaek/Dropbox (Personal)/Projects/*Defaults/Misc/Gems/DFImageManager'
+    pod 'DFImageManager'
   end
 end
